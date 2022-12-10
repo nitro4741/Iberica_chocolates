@@ -1,0 +1,100 @@
+.body {
+  background-color: #5f4f6c;
+  margin: 0 auto;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  font-size: large;
+}
+
+.list__link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: color 0.4s;
+}
+
+.list__link::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  transition: width 0.5s;
+  background-color: #432523;
+  display: block;
+}
+
+.list__link:hover::after {
+  width: 100%;
+}
+
+.list__link:hover {
+  color: white;
+}
+
+.nav {
+  background-color: #b07265;
+  margin: 0 auto;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border: solid #75372a;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem 0 1rem;
+  font-weight: 600;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.hero {
+  align-content: center;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  height: 500px;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5611e7e2e4b01402b90bb1cb/1449632459004-SRIGUMTVNUY1GXGEBXS6/moresmores.png?format=1500w");
+}
+
+.cards__img {
+  border-radius: 2rem;
+  max-width: 500px;
+}
+
+.card {
+  background-color: #adb0d3;
+  border-radius: 1rem;
+  overflow: hidden;
+  max-width: 500px;
+  border: 0.1rem solid #75372a;
+}
+
+.card__header {
+  background-color: #b07265;
+}
+
+.card__title {
+  margin: auto;
+  text-align: center;
+  padding: 0.3rem;
+}
+
+.card__subtitle {
+  text-align: center;
+}
+
+.card__p {
+  padding: 0.8rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=iberica.css.map */

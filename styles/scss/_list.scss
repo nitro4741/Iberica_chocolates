@@ -1,0 +1,33 @@
+.list {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem ;
+    font-size: large;
+
+}
+
+.list__link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: color 0.4s;
+
+    
+}
+
+.list__link::after {
+    content: "";
+    height: 2px;
+    width: 0;
+    transition: width 0.5s;
+    background-color: #432523;
+    display: block;
+}
+
+.list__link:hover::after {
+    width: 100%;
+}
+
+
+.list__link:hover {
+    color: white;
+}
