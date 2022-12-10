@@ -70,31 +70,35 @@
 }
 
 .card {
-  background-color: #adb0d3;
+  background-color: rgba(187, 235, 227, 0.825);
   border-radius: 1rem;
   overflow: hidden;
   max-width: 500px;
-  border: 0.1rem solid #75372a;
+  border: 0.3rem solid #75372a;
 }
 
 .card__header {
-  background-color: #b07265;
+  /*background-color: #b07265;*/
 }
 
 .card__title {
   margin: auto;
   text-align: center;
   padding: 0.3rem;
+  /*background-color: #e2dabcd4;*/
 }
 
 .card__subtitle {
   text-align: center;
+  /*background-color: #582820b7;*/
+  margin: auto;
 }
 
 .card__p {
   padding: 0.8rem;
   margin: auto;
   padding: 1rem;
+  /*background-color: #7c4c3cd3;*/
 }
 
 /*# sourceMappingURL=iberica.css.map */
