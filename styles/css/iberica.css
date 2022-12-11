@@ -143,6 +143,17 @@
   border: 2px solid #f7e8b5;
 }
 
+.element--description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.element--description-title {
+  margin: 0;
+}
+
 .content--img {
   display: flex;
 }
@@ -153,6 +164,14 @@
   border: 2px solid #75372a;
   border-radius: 1rem;
   background-color: rgba(255, 255, 255, 0.288);
+}
+
+.button {
+  margin-top: 2rem;
+  background-color: #7c6049;
+  box-shadow: 3px 3px 1px #634f38;
+  border: 2px solid #725640;
+  border-radius: 0.8rem;
 }
 
 /*# sourceMappingURL=iberica.css.map */
