@@ -9,6 +9,8 @@
     margin: auto;
     height: 500px;
     background-image: url('https://images.squarespace-cdn.com/content/v1/5611e7e2e4b01402b90bb1cb/1449632459004-SRIGUMTVNUY1GXGEBXS6/moresmores.png?format=1500w');
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -42,6 +44,7 @@
     text-align: center;
     /*background-color: #582820b7;*/
     margin: auto;
+    background-color: rgba(255, 255, 255, 0.587);
 }
 
 
@@ -49,5 +52,6 @@
     padding: 0.8rem;
     margin: auto;
     padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.587);
     /*background-color: #7c4c3cd3;*/
 }
