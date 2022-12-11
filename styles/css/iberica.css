@@ -67,8 +67,7 @@
 }
 
 .cards__img {
-  border-radius: 2rem;
-  max-width: 500px;
+  max-width: 300px;
 }
 
 .card {
@@ -76,7 +75,7 @@
   border-radius: 1rem;
   overflow: hidden;
   max-width: 500px;
-  border: 0.3rem solid #75372a;
+  border: 0.1rem solid #75372a;
 }
 
 .card__header {
@@ -91,13 +90,13 @@
 }
 
 .card__subtitle {
-  text-align: center;
-  /*background-color: #582820b7;*/
+  padding: 1rem;
   margin: auto;
   background-color: rgba(255, 255, 255, 0.587);
 }
 
 .card__p {
+  display: none;
   padding: 0.8rem;
   margin: auto;
   padding: 1rem;
@@ -105,6 +104,27 @@
   /*background-color: #7c4c3cd3;*/
 }
 
+@media (min-width: 768px) {
+  .cards__img {
+    max-width: 400px;
+  }
+  .card__p {
+    display: block;
+  }
+  .card {
+    background-color: rgba(187, 235, 227, 0.825);
+    border-radius: 1rem;
+    overflow: hidden;
+    max-width: 500px;
+    border: 0.3rem solid #75372a;
+  }
+  .card__subtitle {
+    text-align: center;
+    /*background-color: #582820b7;*/
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.587);
+  }
+}
 .productos {
   display: flex;
   flex-direction: column;
