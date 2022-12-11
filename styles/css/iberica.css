@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.logo {
+  width: 150px;
+}
+
 .list {
   list-style: none;
   display: flex;
@@ -34,7 +38,7 @@
 }
 
 .nav {
-  background-color: #b07265;
+  background-color: rgba(176, 113, 101, 0.9490196078);
   margin: 0 auto;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
@@ -144,6 +148,7 @@
 }
 
 .content__title {
+  margin: 5px;
   display: flex;
   justify-items: center;
 }
@@ -157,8 +162,8 @@
 
 .element {
   display: flex;
-  border-radius: 1rem;
   justify-content: space-around;
+  border-radius: 1rem;
   background-color: rgba(151, 139, 103, 0.5333333333);
   border: 2px solid #f7e8b5;
 }
@@ -174,6 +179,10 @@
   margin: 0;
 }
 
+.element--description-p {
+  display: none;
+}
+
 .content--img {
   display: flex;
 }
@@ -184,6 +193,7 @@
   border: 2px solid #75372a;
   border-radius: 1rem;
   background-color: rgba(255, 255, 255, 0.288);
+  width: 100px;
 }
 
 .button {
@@ -192,6 +202,18 @@
   box-shadow: 3px 3px 1px #634f38;
   border: 2px solid #725640;
   border-radius: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  .element--img {
+    width: 200px;
+  }
+  .element--description-p {
+    display: block;
+  }
+  .content__title {
+    margin: 1.5rem 0;
+  }
 }
 
 /*# sourceMappingURL=iberica.css.map */
