@@ -1,5 +1,5 @@
 .body {
-  background-color: #d0e1d9;
+  background-color: #83c5a4;
   margin: 0 auto;
   overflow-x: hidden;
 }
@@ -130,10 +130,14 @@
     background-color: rgba(255, 255, 255, 0.587);
   }
 }
+.section {
+  margin: 5rem auto;
+}
+
 .productos {
   display: flex;
   flex-direction: column;
-  background-color: #bfa77e;
+  background-color: #83c5a4;
 }
 
 .content {
@@ -165,8 +169,8 @@
   display: flex;
   justify-content: space-around;
   border-radius: 1rem;
-  background-color: rgba(151, 139, 103, 0.5333333333);
-  border: 2px solid #f7e8b5;
+  background-color: rgba(255, 255, 255, 0.5215686275);
+  border: 2px solid rgba(216, 198, 138, 0.8274509804);
 }
 
 .element--description {
@@ -201,9 +205,13 @@
 .button {
   margin-top: 2rem;
   background-color: #7c6049;
-  box-shadow: 3px 3px 1px #634f38;
   border: 2px solid #725640;
   border-radius: 0.8rem;
+  transition: box-shadow 0.4s;
+}
+
+.button:hover {
+  box-shadow: 3px 3px 1px #634f38;
 }
 
 @media (min-width: 768px) {
@@ -298,6 +306,7 @@
   border: 2px solid #725640;
   border-radius: 0.8rem;
   margin: auto;
+  transition: box-shadow 0.4s;
 }
 
 .form__button:hover {
@@ -326,9 +335,10 @@
 .tienda__container-text {
   display: flex;
   margin: 1rem auto;
-  border: 2px solid brown;
+  border: 2px solid rgb(211, 201, 133);
   border-radius: 1rem;
   padding: 5px;
+  background-color: beige;
 }
 
 @media (min-width: 768px) {

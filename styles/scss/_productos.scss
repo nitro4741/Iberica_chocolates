@@ -1,7 +1,11 @@
+.section {
+    margin: 5rem auto;
+}
+
 .productos {
     display: flex;
     flex-direction: column;
-    background-color: #bfa77e;
+    background-color: #83c5a4;
 }
 
 .content {
@@ -34,8 +38,8 @@
     display: flex;
     justify-content: space-around;
     border-radius: 1rem;
-    background-color: #978b6788;
-    border: 2px solid #f7e8b5;
+    background-color: #ffffff85;
+    border: 2px solid #d8c68ad3;
 }
 
 .element--description {
@@ -70,10 +74,16 @@
 .button {
     margin-top: 2rem; 
     background-color: #7c6049;
-    box-shadow: 3px 3px 1px #634f38;
+    
     border: 2px solid #725640;
     border-radius: 0.8rem;
+    transition: box-shadow 0.4s;
 }
+
+.button:hover {
+    box-shadow: 3px 3px 1px #634f38;
+}
+
 
 @media(min-width: 768px) {
     .element--img {
