@@ -1,0 +1,58 @@
+@import './mixins';
+
+.carrousel {
+    width: 90%;
+    max-width: 120em;
+    padding: 2em;
+    @include neo( 1 , 1em , 1em );
+    overflow: hidden;
+}
+
+.carrousel__grande {
+    width: 400%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+
+    transition: all 0.5s ease;
+    transform: translateX(0%);
+
+    @include neo( 1 , 1em , 1em );
+}
+
+.carrousel__img {
+    width: calc(100%/8 - 2em);
+    min-height: 10vh;
+
+    @include neo( 1 , 1em , 1em );
+
+}
+
+.points {
+    width: 100%;
+    margin: 1em 0 0;
+    padding: 0.4em;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.point {
+    
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 0;
+    @include neo( 1 , 1em , 1em );
+    list-style: none;
+    background-color: rgba(215, 180, 148, 0.825);
+}
+
+.point.activo {
+    background-color: rgb(232, 164, 36);
+    
+}
