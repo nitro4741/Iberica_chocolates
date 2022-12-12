@@ -4,6 +4,17 @@
   overflow-x: hidden;
 }
 
+.header {
+  position: fixed;
+  z-index: 25;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: 0 0 0.125rem 0.125rem #75372a;
+}
+
 .logo {
   width: 150px;
 }
@@ -211,7 +222,8 @@
 }
 
 .button:hover {
-  box-shadow: 3px 3px 1px #634f38;
+  box-shadow: 0 0 0.25rem rgb(0, 0, 0);
+  filter: brightness(1.125);
 }
 
 @media (min-width: 768px) {
@@ -310,7 +322,8 @@
 }
 
 .form__button:hover {
-  box-shadow: 2px 2px 1px #634f38;
+  box-shadow: 0 0 0.25rem rgb(0, 0, 0);
+  filter: brightness(1.125);
 }
 
 .tienda__container {
